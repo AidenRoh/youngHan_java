@@ -25,11 +25,13 @@ public class BankAccount {
 		}
 	}
 
+	//public 메서드: getBalance
 	public int getBalance() {
 		return balance;
 	}
 
 	private boolean isAmountValid(int amount) {
+		//금액이 0보다 커야함
 		return amount > 0;
 	}
 }
