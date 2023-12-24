@@ -6,9 +6,9 @@ public class DataCountMain3 {
 		System.out.println("A count=" + Data3.count);
 
 		Data3 data2 = new Data3("B");
-		System.out.println("A count=" + Data3.count);
+		System.out.println("B count=" + Data3.count);
 
 		Data3 data3 = new Data3("C");
-		System.out.println("A count=" + Data3.count);
+		System.out.println("C count=" + Data3.count);
 	}
 }
