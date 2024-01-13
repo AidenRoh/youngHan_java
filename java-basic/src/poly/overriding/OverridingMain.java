@@ -20,6 +20,6 @@ public class OverridingMain {
 		System.out.println("value = " + poly.value); //변수는 오버라이딩 X
 		poly.method(); //메서드 오버라이딩!!
 
-		// 오버라이딩한 메서드가 항상 절대적..! 우선권을 가지기 때문에 poly.method()는 자식타입의 오버라이딩된 메서드가 호출된다.
+		//오버라이딩한 메서드가 항상 절대적..! 우선권을 가지기 때문에 poly.method()는 자식타입의 오버라이딩된 메서드가 호출된다.
 	}
 }
