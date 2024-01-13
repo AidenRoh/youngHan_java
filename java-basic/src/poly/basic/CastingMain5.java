@@ -16,7 +16,7 @@ public class CastingMain5 {
 
 	private static void call(Parent parent) {
 		parent.parentMethod();
-		if (parent instanceof Child) {
+		if (parent instanceof Child) { // 다운캐스팅이 가능한지 확인할 수 있는 좋은 메서드
 			System.out.println("Child 인스턴스 맞음");
 			Child child = (Child) parent;
 			child.childMethod();
