@@ -15,6 +15,9 @@ public class AbstractMain {
 		soundAnimal(dog);
 		soundAnimal(cat);
 		soundAnimal(caw);
+		moveAnimal(dog);
+		moveAnimal(cat);
+		moveAnimal(caw);
 	}
 
 	private static void soundAnimal(AbstractAnimal animal) {
